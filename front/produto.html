@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Produtos</title>
+</head>
+<body>
+    <h1>CRUD de Produtos</h1>
+
+    <!-- Formulário para adicionar ou editar produtos -->
+    <form id="produto-form">
+        <input type="hidden" id="produto-id" value="">
+        <label for="produto-nome">Nome do Produto:</label>
+        <input type="text" id="produto-nome" required>
+        <label for="produto-quantidade">Quantidade em Estoque:</label>
+        <input type="number" id="produto-quantidade" required>
+        <label for="produto-valor">Valor:</label>
+        <input type="number" id="produto-valor" step="0.01" required>
+        <label for="produto-observacao">Observação:</label>
+        <textarea id="produto-observacao"></textarea>
+        <button type="submit">Salvar</button>
+    </form>
+
+    <!-- Tabela para exibir a lista de produtos -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Quantidade em Estoque</th>
+                <th>Valor</th>
+                <th>Observação</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="produto-lista">
+            <!-- Os produtos serão exibidos aqui -->
+        </tbody>
+    </table>
+
+    <script src="produto.js"></script>
+</body>
+</html>

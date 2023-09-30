@@ -1,0 +1,65 @@
+.caixa-login {
+    width: 300px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.121);
+    background-color: #f4f4f4; /* Cor de fundo cinza claro */
+}
+
+.titulo-login {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Altere a cor do rótulo do campo para azul */
+.rotulo-form {
+    font-size: 14px;
+    color: #007bff; /* Cor azul para rótulo */
+}
+
+.campo-input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#btn-entrar {
+    margin-top: 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#btn-entrar:hover {
+    background-color: #0056b3;
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Altere a cor do link "Esqueci minha senha" para azul */
+.esqueci-minha-senha a {
+    color: #007bff; /* Cor azul para o link */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Altere a cor do link no hover para azul mais escuro */
+.esqueci-minha-senha a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Cor azul mais escura no hover */
+}
+
+
+
